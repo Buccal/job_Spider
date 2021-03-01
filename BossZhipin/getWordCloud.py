@@ -2,7 +2,7 @@ from config import *
 import os
 import jieba
 import wordcloud
-from scipy.misc import imread
+import imageio
 
 # 打开文件
 os.chdir(r'../Output')
@@ -34,7 +34,7 @@ for word in words:
 		rword = word
 	counts[rword] = counts.get(rword,0) + 1
 for word in excludes:
-	print(counts)
+	# print(counts)
 	del counts[word]
 
 # 输出前num位
@@ -45,7 +45,7 @@ for i in range(num):
 	print ("{0:<10}{1:>5}".format(word, count))
 
 # 生成词云
-mask = imread("chinamap.jpg")
+mask = imageio.imread("chinamap.jpg")
 picData = " ".join(words)
 w = wordcloud.WordCloud(\
     width = 1000, height = 700,\
