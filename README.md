@@ -76,11 +76,11 @@ conda install -c conda-forge wordcloud
 
 ## 例子
 
-![Pic of Database](https://raw.githubusercontent.com/Buccal/job_Spider/main/Screenshots/2021-03-01_204213.png)
+![MongoDB截图](https://raw.githubusercontent.com/Buccal/job_Spider/main/Screenshots/2021-03-01_204213.png)
 
-![Pic of WordCloud](https://raw.githubusercontent.com/Buccal/job_Spider/main/Output/jobRequests.png)
+![词云截图](https://raw.githubusercontent.com/Buccal/job_Spider/main/Output/jobRequests.png)
 
-![Pic of WordCloud](https://raw.githubusercontent.com/Buccal/job_Spider/main/Output/2021-03-01_205417.png)
+![词频排名输出截图](https://raw.githubusercontent.com/Buccal/job_Spider/main/Screenshots/2021-03-01_205417.png)
 
 
 ## 参考
